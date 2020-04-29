@@ -25,7 +25,7 @@ body {
     background-color: var(--bgLightMode);
 }
 .content-area {
-    padding: 70px 140px;
+    padding: 70px 140px 0 140px;
 }
 h1 {
     color: var(--sharkbait);
@@ -65,4 +65,36 @@ ul li a {
     float: right;
     position: relative;
     top: -380px;
+}
+@media only screen and (max-width: 1630px) {
+    .content-area {
+        padding: 30px 50px 0 50px;
+    }
+}
+@media only screen and (max-width: 1480px) {
+    /* For mobile phones: */
+    h1 {
+        width: auto;
+    }
+    .screenshots {
+        top: 0;
+        float: none;
+        
+    }
+    p {
+        padding-top: 20;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .logo {
+        width: 140px;
+    }
+    h1 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .screenshots {
+        width: 100%;
+    }
 }
