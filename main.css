@@ -72,7 +72,9 @@ ul li a {
     }
 }
 @media only screen and (max-width: 1480px) {
-    /* For mobile phones: */
+    body {
+        background-size: auto 50%;
+    }
     h1 {
         width: auto;
     }
@@ -96,5 +98,11 @@ ul li a {
     }
     .screenshots {
         width: 100%;
+    }
+}
+@media only screen and (max-width: 340px) {
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
     }
 }
