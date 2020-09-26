@@ -1,2 +1,4 @@
-## Mac ds_store
+/node_modules/
+/public/build/
+
 .DS_Store
