@@ -1,0 +1,21 @@
+<script>
+    import ProfilePhoto from '../components/ProfilePhoto.svelte'
+    
+    export let invitee
+</script>
+
+<section class="invitee header-row">
+    <ProfilePhoto size='50px' photo={invitee.user.picID} />
+    <p class="username">{invitee.user.username}</p>
+    {#if invitee.isGoing}
+        <img src="/assets/Iconography/check_dark.pdf" alt="check-mark">
+    {/if}
+</section>
+
+
+<style>
+.invitee {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--dolphin);
+}
+</style>
