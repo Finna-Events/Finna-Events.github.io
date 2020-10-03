@@ -1,0 +1,113 @@
+:root {
+	--activeBlue: rgba(27, 96, 165, 1);
+	--bgDarkMode: rgba(26, 36, 79, 1);
+	--snorkelfart: rgba(111, 221, 227, 1);
+	--inactiveGrey: rgba(128, 147, 166, 1);
+	--dolphin: rgba(112, 112, 112, 1);
+	--bgLightMode: rgba(255, 255, 255, 1);
+	--sharkbait: rgba(237, 112, 38, 1);
+	--veryLightPink: rgba(204, 204, 204, 1);
+}
+body {
+	/* fucking ionic... has to be a way around this... */
+	position: relative !important;
+	overflow-y: scroll !important;
+}
+
+@font-face {
+	font-family: 'Avenir-Black';
+	src: url('/assets/Fonts/Avenir-Black.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Avenir-Book';
+	src: url('/assets/Fonts/Avenir-Book.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Avenir-Roman';
+	src: url('/assets/Fonts/Avenir-Roman.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Baloo-Regular';
+	src: url('/assets/Fonts/Baloo-Regular.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-Black';
+	src: url('/assets/Fonts/Catamaran-Black.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-Bold';
+	src: url('/assets/Fonts/Catamaran-Bold.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-ExtraBold';
+	src: url('/assets/Fonts/Catamaran-ExtraBold.ttf')
+		format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-ExtraLight';
+	src: url('/assets/Fonts/Catamaran-ExtraLight.ttf')
+		format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-Light';
+	src: url('/assets/Fonts/Catamaran-Light.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-Medium';
+	src: url('/assets/Fonts/Catamaran-Medium.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-Regular';
+	src: url('/assets/Fonts/Catamaran-Regular.ttf')
+		format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-SemiBold';
+	src: url('/assets/Fonts/Catamaran-SemiBold.ttf')
+		format('truetype-variations');
+	font-weight: 1 999;
+}
+
+@font-face {
+	font-family: 'Catamaran-Thin';
+	src: url('/assets/Fonts/Catamaran-Thin.ttf') format('truetype-variations');
+	font-weight: 1 999;
+}
+
+ion-content {
+	margin: 12px;
+	padding: 100px;
+	background: var(--bgDarkMode);
+}
+
+.header-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-row > .username {
+	flex-grow: 1;
+	margin: 0 0.5rem;
+}
