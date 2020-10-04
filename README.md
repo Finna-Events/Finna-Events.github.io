@@ -1,7 +1,3 @@
-_Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)_
-
----
-
 # Finna Web App
 
 This is the web-accessible version of Finna, built in [Svelte](https://svelte.dev). You can find the site at [https://finna.events](https://finna.events).
@@ -27,7 +23,7 @@ npm install
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running.
+Navigate to [localhost:5000](http://localhost:5000). You should see the app running.
 
 ## Deploying the app
 
