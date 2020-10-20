@@ -63,6 +63,15 @@
 	--ion-color-verylightpink-contrast-rgb: 0, 0, 0;
 	--ion-color-verylightpink-shade: #b4b4b4;
 	--ion-color-verylightpink-tint: #d1d1d1;
+
+	/* theming https://ionicframework.com/docs/theming/themes */
+	--ion-background-color: var(--ion-color-bgdarkmode);
+	--ion-background-color-rgb: var(--bgdarkmode);
+	--ion-text-color: var(--ion-color-bglightmode);
+	--ion-text-color-rgb: var(--bgLightMode);
+	--ion-toolbar-background: var(--ion-color-bgdarkmode);
+
+	--ion-font-family: 'Avenir-Roman';
 }
 
 .ion-color-active-blue {

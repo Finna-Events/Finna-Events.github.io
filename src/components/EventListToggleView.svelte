@@ -62,7 +62,7 @@
 .link {
     flex-grow: 1;
     text-align: center;
-    color: var(--activeBlue);
+    color: var(--snorkelfart);
 }
 input[type="radio"] {
     position: fixed;

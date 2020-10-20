@@ -39,4 +39,11 @@
     width: 20px;
     margin-right: 0.5rem;
 }
+.username {
+    color: var(--sharkbait);
+    font-family: Catamaran-Bold;
+}
+.text-small {
+    color: var(--dolphin);
+}
 </style>
