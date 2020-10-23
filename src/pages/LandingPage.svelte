@@ -17,7 +17,7 @@
 
             <ul class="info-links">
                 <li><a href="mailto:admin@finna.events">Support</a></li>
-                <li><a href="https://finna.flycricket.io/privacy.html">Privacy Policy</a>
+                <li><a href="/privacy-policy">Privacy Policy</a>
                 </li>
             </ul>
         </div>
@@ -77,7 +77,7 @@ ul li a {
 }
 @media only screen and (max-width: 1630px) {
     .content-area {
-        padding: 30px 50px 0 50px;
+        padding: 30px 50px 50px 50px;
     }
 }
 @media only screen and (max-width: 1480px) {
@@ -92,7 +92,7 @@ ul li a {
         float: none;
     }
     p {
-        padding-top: 20;
+        padding-top: 20px;
         width: auto;
     }
 }
