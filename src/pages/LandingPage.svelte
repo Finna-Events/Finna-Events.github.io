@@ -101,7 +101,7 @@ ul li a {
         width: 140px;
     }
     h1 {
-        font-size: 60px;
+        font-size: 55px;
         line-height: 65px;
     }
     .screenshots {
