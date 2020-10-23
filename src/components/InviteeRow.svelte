@@ -18,4 +18,8 @@
     padding: 10px 0;
     border-bottom: 1px solid var(--dolphin);
 }
+.username {
+    font-family: Catamaran-Bold;
+    margin-left: 0.75rem;
+}
 </style>

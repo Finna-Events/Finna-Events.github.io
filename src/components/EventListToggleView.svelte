@@ -58,6 +58,7 @@
     display: flex;
     align-items: stretch;
     margin: 20px 0;
+    font-family: Catamaran-Bold;
 }
 .link {
     flex-grow: 1;

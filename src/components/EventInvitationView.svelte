@@ -12,7 +12,7 @@
     </p>
 </section>
 
-<p>{event.description}</p>
+<p class="event-description">{event.description}</p>
 
 <section class='event-detail'>
     <img src="/assets/Iconography/clock.pdf" alt="icon-clock" class="icon clock">
@@ -35,6 +35,9 @@
     display: flex;
     align-items: center;
 }
+.event-detail p {
+    font-size: 1.25rem;
+}
 .icon {
     width: 20px;
     margin-right: 0.5rem;
@@ -42,8 +45,14 @@
 .username {
     color: var(--sharkbait);
     font-family: Catamaran-Bold;
+    margin-left: 0.5em;
+    font-size: 1.75rem;
 }
 .text-small {
     color: var(--dolphin);
+    font-size: 0.8rem;
+}
+.event-description {
+    font-size: 1.5rem;
 }
 </style>
