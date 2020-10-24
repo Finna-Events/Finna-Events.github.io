@@ -3,6 +3,7 @@
     import { layoutStore } from '../lib/LayoutStore.ts'
     import EventListToggleView from '../components/EventListToggleView.svelte'
     import EventInvitationView from '../components/EventInvitationView.svelte'
+    import AppStoreBanner from '../components/AppStoreBanner.svelte'
 
     $layoutStore.title = "event"
     let eventPromise = $activeEventStore
@@ -17,9 +18,8 @@
     {:catch error}
         <p>something went wrong... {error.message}</p>
     {/await}
+    <AppStoreBanner />
 </ion-content>
-
-
 
 
 

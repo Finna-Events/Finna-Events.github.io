@@ -19,6 +19,5 @@ export let slots
             </ion-toolbar>
         </ion-header>
         <svelte:component this={slots.content} />
-
     </ion-page>
 </ion-app>

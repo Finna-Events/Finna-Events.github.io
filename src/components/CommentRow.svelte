@@ -4,16 +4,18 @@
     export let comment
 </script>
 
-<div class="comment">
-    <ProfilePhoto size='50px' photo={comment.author.picID} />
-    <div>
-        <section class="header-row">
-            <p class="username">{comment.author.username}</p>
-            <p class="timestamp">{ timeAgo(new Date(comment.created * 1000)) }</p>
-        </section>
-        <p class="content">{comment.content}</p>
+<ion-item>
+    <div class="comment">
+        <ProfilePhoto size='50px' photo={comment.author.picID} />
+        <div>
+            <section class="header-row">
+                <p class="username">{comment.author.username}</p>
+                <p class="timestamp">{ timeAgo(new Date(comment.created * 1000)) }</p>
+            </section>
+            <p class="content">{comment.content}</p>
+        </div>
     </div>
-</div>
+</ion-item>
 
 <style>
 .username {
@@ -27,7 +29,7 @@
     display: flex;
     align-items:flex-start;
     padding: 10px 0;
-    border-bottom: 1px solid var(--dolphin);
+    width: 100%;
 }
 
 .comment > div {

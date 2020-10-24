@@ -73,6 +73,12 @@
 
 	--ion-font-family: 'Avenir-Roman';
 }
+ion-item {
+	--border-color: var(
+		--ion-color-dolphin,
+		var(--ion-color-dolphin, var(--ion-color-dolphin, rgba(0, 0, 0, 0.13)))
+	);
+}
 
 .ion-color-active-blue {
 	--ion-color-base: var(--ion-color-active-blue);
