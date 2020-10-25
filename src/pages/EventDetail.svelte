@@ -7,6 +7,9 @@
 
     $layoutStore.title = "event"
     let eventPromise = $activeEventStore
+
+    let showBanner = ['iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) >= 0
+        || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
 </script>
 
 <ion-content class="ion-padding" forceOverscroll="true">
@@ -18,7 +21,10 @@
     {:catch error}
         <p>something went wrong... {error.message}</p>
     {/await}
-    <AppStoreBanner />
+    
+    {#if showBanner}
+        <AppStoreBanner />
+    {/if}
 </ion-content>
 
 
