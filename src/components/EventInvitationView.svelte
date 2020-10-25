@@ -15,12 +15,12 @@
 <p class="event-description">{event.description}</p>
 
 <section class='event-detail'>
-    <img src="/assets/Iconography/clock.pdf" alt="icon-clock" class="icon clock">
+    <img src="/assets/Iconography/clock.png" alt="icon-clock" class="icon clock">
     <p>{event.timeOccurring}</p>
 </section>
 
 <section class='event-detail'>
-    <img src="/assets/Iconography/pin.pdf" alt="icon-pin" class="icon pin">
+    <img src="/assets/Iconography/pin.png" alt="icon-pin" class="icon pin">
     <p>{event.placeOccurring}</p>
 </section>
 

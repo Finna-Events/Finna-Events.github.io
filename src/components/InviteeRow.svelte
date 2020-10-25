@@ -9,7 +9,7 @@
         <ProfilePhoto size='50px' photo={invitee.user.picID} />
         <p class="username">{invitee.user.username}</p>
         {#if invitee.isGoing}
-            <img src="/assets/Iconography/check_dark.pdf" alt="check-mark">
+            <img class="check" src="/assets/Iconography/check_dark.png" alt="check-mark">
         {/if}
     </div>    
 </ion-item>
@@ -23,5 +23,8 @@
 .username {
     font-family: Catamaran-Bold;
     margin-left: 0.75rem;
+}
+.check {
+    width: 15px;
 }
 </style>
