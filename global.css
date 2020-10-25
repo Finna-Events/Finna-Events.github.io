@@ -24,7 +24,7 @@
 
 	--ion-color-snorkelfart: #6fdde3;
 	--ion-color-snorkelfart-rgb: 111, 221, 227;
-	--ion-color-snorkelfart-contrast: #000000;
+	--ion-color-snorkelfart-contrast: var(--activeBlue);
 	--ion-color-snorkelfart-contrast-rgb: 0, 0, 0;
 	--ion-color-snorkelfart-shade: #62c2c8;
 	--ion-color-snorkelfart-tint: #7de0e6;
@@ -72,6 +72,12 @@
 	--ion-toolbar-background: var(--ion-color-bgdarkmode);
 
 	--ion-font-family: 'Avenir-Roman';
+}
+ion-item {
+	--border-color: var(
+		--ion-color-dolphin,
+		var(--ion-color-dolphin, var(--ion-color-dolphin, rgba(0, 0, 0, 0.13)))
+	);
 }
 
 .ion-color-active-blue {
