@@ -79,5 +79,6 @@ input[type="radio"]:checked+label {
 .toggleArea > section {
     position: absolute;
     width: 100%;
+    padding-bottom: 196px;
 }
 </style>

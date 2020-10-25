@@ -26,7 +26,7 @@ const initialize = () => {
 	// Initialize Firebase
 	firebase.initializeApp(firebaseConfig)
 	// firebase.analytics()
-	console.log('initialized')
+	// console.log('initialized')
 }
 
 /*
@@ -150,6 +150,6 @@ export const getInvitees = async (eventID) => {
 		}
 		return invitee
 	})
-	console.log(`${JSON.stringify(invitees)}`)
+	// console.log(`${JSON.stringify(invitees)}`)
 	return invitees
 }
