@@ -58,11 +58,12 @@
     display: flex;
     align-items: stretch;
     margin: 20px 0;
+    font-family: Catamaran-Bold;
 }
 .link {
     flex-grow: 1;
     text-align: center;
-    color: var(--activeBlue);
+    color: var(--snorkelfart);
 }
 input[type="radio"] {
     position: fixed;
@@ -78,5 +79,6 @@ input[type="radio"]:checked+label {
 .toggleArea > section {
     position: absolute;
     width: 100%;
+    padding-bottom: 196px;
 }
 </style>
