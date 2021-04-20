@@ -13,7 +13,9 @@
 
             <img class="screenshots" src="/assets/landing/screens.png" alt="Finna Screenshots">
 
-            <p>Finna is a mobile application for simple, casual planning, in which users simply state what they would like to do. From that point, the user's closest contacts can like the post, indicating that they, too, are finna, and would like to join in on the activity. By taking away the stress and intricacies of the normal planning process, making plans becomes easier than ever. If your contacts are 'finna,' they agree on the date, time, and activity. <b>All that's left is to do.</b></p>
+            <p>Finna is your go-to social networking app, because it actually makes you more social. Have something you want to do? Tell your friends you are finna, and let the conversation begin. Your friends can comment to iron out the details, and say they are 'finna', letting you know that they want to join.</p>
+
+            <p>By taking away the stress and intricacies of the normal planning process, making plans becomes easier than ever. If your contacts are 'finna,' they've agreed on the date, time, and activity. <b>All that's left is to make it happen!</b></p>
 
             <ul class="info-links">
                 <li><a href="mailto:admin@finna.events">Support</a></li>
