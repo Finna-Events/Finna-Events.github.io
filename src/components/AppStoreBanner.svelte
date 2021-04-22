@@ -17,8 +17,8 @@
                     expand="block" 
                     color="snorkelfart" 
                     target="_blank" 
-                    href="https://testflight.apple.com/join/MM2Gfe9d"
-                >join the beta</ion-button>
+                    href="https://apps.apple.com/us/app/finna/id940211777"
+                >i'm finna join</ion-button>
                 <!-- get the app -->
             </ion-col>
         </ion-row>
