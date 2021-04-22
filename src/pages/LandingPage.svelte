@@ -13,10 +13,11 @@
 
             <img class="screenshots" src="/assets/landing/screens.png" alt="Finna Screenshots">
 
-            <p>Finna is your go-to social networking app, because it actually makes you more social. Have something you want to do? Tell your friends you are finna, and let the conversation begin. Your friends can comment to iron out the details, and say they are 'finna', letting you know that they want to join.</p>
+            <div class="summary">
+                <p>Finna is your go-to social networking app, because it actually makes you more social. Have something you want to do? Tell your friends you are finna, and let the conversation begin. Your friends can comment to iron out the details, and say they are 'finna', letting you know that they want to join.</p>
 
-            <p>By taking away the stress and intricacies of the normal planning process, making plans becomes easier than ever. If your contacts are 'finna,' they've agreed on the date, time, and activity. <b>All that's left is to make it happen!</b></p>
-
+                <p>By taking away the stress and intricacies of the normal planning process, making plans becomes easier than ever. If your contacts are 'finna,' they've agreed on the date, time, and activity. <b>All that's left is to make it happen!</b></p>
+            </div>
             <ul class="info-links">
                 <li><a href="mailto:admin@finna.events">Support</a></li>
                 <li><a href="/privacy-policy">Privacy Policy</a>
@@ -45,6 +46,9 @@ h1 {
     line-height: 125px;
     width: 570px;
 }
+.summary{
+    padding-top: 150px;
+}
 p {
     color: var(--dolphin);
     font-family: Catamaran-Light;
@@ -52,7 +56,6 @@ p {
     line-height: 22px;
     text-transform: lowercase;
     width: 570px;
-    padding-top: 150px;
 }
 ul {
     margin: 0;
@@ -93,8 +96,10 @@ ul li a {
         top: 0;
         float: none;
     }
-    p {
+    .summary {
         padding-top: 20px;
+    }
+    p {
         width: auto;
     }
 }
@@ -105,6 +110,9 @@ ul li a {
     h1 {
         font-size: 55px;
         line-height: 65px;
+    }
+    .summary {
+        padding-top: 20px;
     }
     .screenshots {
         width: 100%;
