@@ -57,6 +57,9 @@ p {
     text-transform: lowercase;
     width: 570px;
 }
+b {
+    color: black;
+}
 ul {
     margin: 0;
     padding: 0;
