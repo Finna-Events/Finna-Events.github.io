@@ -96,8 +96,10 @@ ul li a {
         top: 0;
         float: none;
     }
-    p {
+    .summary {
         padding-top: 20px;
+    }
+    p {
         width: auto;
     }
 }
@@ -108,6 +110,9 @@ ul li a {
     h1 {
         font-size: 55px;
         line-height: 65px;
+    }
+    .summary {
+        padding-top: 20px;
     }
     .screenshots {
         width: 100%;
