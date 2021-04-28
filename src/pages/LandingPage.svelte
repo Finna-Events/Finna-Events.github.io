@@ -1,4 +1,5 @@
 <script>
+    import AppStoreBanner from '../components/AppStoreBanner.svelte'
 </script>
 
 <ion-app>
@@ -24,7 +25,9 @@
                 </li>
             </ul>
         </div>
-
+        
+        <AppStoreBanner />
+        
     </ion-content>
 </ion-app>
 
