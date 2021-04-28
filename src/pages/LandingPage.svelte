@@ -1,7 +1,5 @@
 <script>
     import AppStoreBanner from '../components/AppStoreBanner.svelte'
-    let showBanner = ['iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) >= 0
-        || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
 </script>
 
 <ion-app>
@@ -27,9 +25,9 @@
                 </li>
             </ul>
         </div>
-        {#if showBanner}
-            <AppStoreBanner />
-        {/if}
+        
+        <AppStoreBanner />
+        
     </ion-content>
 </ion-app>
 

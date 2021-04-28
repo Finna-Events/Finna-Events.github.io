@@ -27,7 +27,8 @@
 
 <script>
 import { fly } from 'svelte/transition';
-let visible = true
+let visible = ['iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) >= 0
+        || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
 const toggleVisibility = () => { visible = !visible }
 </script>
 
